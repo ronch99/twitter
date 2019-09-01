@@ -1,4 +1,6 @@
 # Reference: socialmedia-class.org/twittertutorial.html
+# Reference: developer.twitter.com/en/docs/tweets/data-dictionary/overview/tweet-object
+# @author Ziru Chen
 
 try:
 	import json
@@ -20,7 +22,7 @@ auth.set_access_token(ACCESS_TOKEN, ACCESS_SECRET)
 # Create the api
 api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True, compression=True)
 
-count = 0
+count = 1
 for tweet in tweepy.Cursor(api.home_timeline).items(50):
 	if len(tweet.text) > 0:
 		print("Tweet  #" + str(count) + "\n" + tweet.text)

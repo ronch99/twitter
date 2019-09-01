@@ -8,10 +8,10 @@ except ImportError:
 import tweepy
 
 # User credentials
-ACCESS_TOKEN = "822036044962902018-u61Vncw4ylohHr9WDe6fQFXT0d67hVa"
-ACCESS_SECRET = "SZiSJlrw9493tIM3rud3WHBrMfHdIutX0fwESVdXsb0Ji"
-CONSUMER_KEY = "Jr7FMGc2kTprNW5zy7sDcOh6v"
-CONSUMER_SECRET = "IAd80cz1CsQykOgCU7pdzuKVMvN3P2VuWxp6nAW9Tk3OOG9hPO"
+ACCESS_TOKEN = ""
+ACCESS_SECRET = ""
+CONSUMER_KEY = ""
+CONSUMER_SECRET = ""
 
 # Setup tweepy
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)

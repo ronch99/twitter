@@ -1,4 +1,5 @@
 # Reference: socialmedia-class.org/twittertutorial.html
+# @author Ziru Chen
 
 try:
 	import json

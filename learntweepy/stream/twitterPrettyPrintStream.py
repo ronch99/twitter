@@ -1,11 +1,6 @@
 # Reference: socialmedia-class.org/twittertutorial.html
 # Reference: developer.twitter.com/en/docs/tweets/data-dictionary/overview/tweet-object
 # @author Ziru "Ron" Chen
-
-try:
-	import json
-except ImportError:
-	import simplejson as json
 	
 import tweepy
 
